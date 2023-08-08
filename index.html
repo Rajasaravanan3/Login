@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid" style="height: 100vh;background-color:#8d5ec7;">
+        <div class="row" align="center">
+            <div class="col-0 col-lg-1"></div>
+            <div class="col-12 col-lg-10">
+                <div class="row mt-4" style="background-color: #EEEDED;box-shadow: rgba(99, 99, 99, 0.2) 5px 0px 5px 0px;">
+                    <div class="col-1"></div>
+                    <div class="col-10 mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-4" style="background-color: #FFFFFF;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;border-radius:10px">
+                                <div class="row mt-3">
+                                    <div class="col-12" align="start"><h5 style="color: #121132;font-weight:700">Login</h5></div>
+                                </div>
+                                <div class="row" align="start" style="font-size: 16px;">
+                                    <div class="col-9"><p>Doesn't have an account yet?</p></div>
+                                    <div class="col-3"><a style="color:#7a1cc7;" href="">Sign Up</a></div>
+                                </div>
+                                <div class="row mt-3" align="start">
+                                    <div class="col-12">
+                                        <label for=""><h6 style="margin-bottom: 0px;">Email Address</h6></label>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12"> 
+                                        <input type="text" id="email" class="form-control pt-2 pb-2" placeholder="you@example.com">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-6" align="start"><label for=""><h6 style="margin-bottom: 0px;">Password</h6></label></div>
+                                    <div class="col-6"><a style="color:#7a1cc7;" href="">Forgot Password?</a></div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <input type="password" id="password" class="form-control pt-2 pb-2" placeholder="Enter 6 character or more">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12" align="start">
+                                        <input type="checkbox" style="height:15px;width:15px">&nbsp;<label for="">Remember me</label>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-12">
+                                        <button class="btn btn-primary pt-2 pb-2" style="background-color:#7d44f5;width: 100%;" onclick="validate()">
+                                            LOGIN
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-4"><hr></div>
+                                    <div class="col-4">or login with</div>
+                                    <div class="col-4"><hr></div>
+                                </div>
+                                <div class="row mt-5 mb-5">   
+                                    <div class="col-6"><button type="button" class="btn btn-outline-danger" style="width: 100%;"><span><img src="1534129544.svg" width="17px" height="17px" alt=""></span> &nbsp;<span class="mt-2">Google</span></button></div>
+                                    <div class="col-6"><button type="button" class="btn btn-outline-primary" style="width: 100%;"><i class="fa-brands fa-facebook-f"></i>&nbsp;Facebook</button></div>
+                                </div>
+                            </div>
+                            <div class="col-8" style="display: flex;justify-content: center;align-items: center;">
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-10">
+                                        <img src="undraw_secure_login_pdn4.svg" alt="workplace" style="height:100%;width:100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
